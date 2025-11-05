@@ -26,7 +26,7 @@ int	_putnum(int n)
 		n *= -1;
 		len += _putchar('-');
 	}
-	while (div < n)
+	while (div <= n)
 		div *= 10;
 	if (div > 1)
 		div /= 10;

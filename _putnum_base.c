@@ -23,9 +23,9 @@ int	_putnum_base(unsigned int num, char *base)
 		base_size++;
 	len = 0;
 	div = 1;
-	while (num > div)
+	while (num >= div)
 		div *= base_size;
-	if (div > base_size)
+	if (div >= base_size)
 		div /= base_size;
 	while (div > 0)
 	{

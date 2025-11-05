@@ -20,16 +20,6 @@
 # include <unistd.h>
 # include <stdint.h>
 
-typedef struct s_flags
-{
-	char	sign;
-	short	min_width;
-	char	is_left;
-	char	pad_char;
-	char	form;
-	short	precision;
-}	t_flags;
-
 int		ft_printf(const char *str, ...);
 int		_putunsigned(unsigned int num);
 int		_putnum(int num);
@@ -37,6 +27,5 @@ int		_putnum_base(unsigned int num, char *base);
 int		_putchar(char symbol);
 int		_putstr(char *str);
 int		_putpointer(uintptr_t ptr);
-int		_contains(char *str, char symbol);
 
 #endif

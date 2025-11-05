@@ -19,7 +19,7 @@ int	_putpointer(uintptr_t ptr)
 
 	len = 0;
 	div = 1;
-	while (ptr / 16 > div)
+	while (ptr / div >= 16)
 		div *= 16;
 	len += _putstr("0x");
 	while (div > 0)
