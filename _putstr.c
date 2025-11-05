@@ -17,7 +17,7 @@ int	_putstr(char *str)
 	int	count;
 
 	if (!str)
-		return _putstr("(null)");
+		return (_putstr("(null)"));
 	count = -1;
 	while (str[++count])
 		write(1, str + count, 1);

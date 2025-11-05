@@ -11,8 +11,8 @@
 /* ************************************************************************** */
 
 #include "libftprintf.h"
-#include <stdio.h>
-#include <limits.h>
+//#include <stdio.h>
+//#include <limits.h>
 
 static int	handle(char str, va_list *args)
 {
@@ -31,7 +31,7 @@ static int	handle(char str, va_list *args)
 	else if (str == 'X')
 		return (_putnum_base(va_arg(*args, unsigned int), HEX_UPPER));
 	else if (str == 'p')
-		return (_putpointer((uintptr_t)va_arg(*args, void *)));	
+		return (_putpointer((uintptr_t)va_arg(*args, void *)));
 	else if (str == '%')
 		return (_putchar('%'));
 	return (0);
