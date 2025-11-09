@@ -6,7 +6,7 @@
 /*   By: afomin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 12:41:44 by afomin            #+#    #+#             */
-/*   Updated: 2025/11/01 18:34:59 by afomin           ###   ########.fr       */
+/*   Updated: 2025/11/09 12:07:23 by afomin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,8 +68,10 @@ int main(void)
     int len_custom, len_std;
 
     printf("=== BASIC TESTS ===\n");
-    len_std = printf("STD: %c %s %d %i %u %x %X %p %%\n", c, str, 42, -42, 42, 42, 42, str);
-    len_custom = ft_printf("FT : %c %s %d %i %u %x %X %p %%\n", c, str, 42, -42, 42, 42, 42, str);
+    len_std = printf("STD: %c %s %d %i %u %x %X %p %%\n",
+c, str, 42, -42, 42, 42, 42, str);
+    len_custom = ft_printf("FT : %c %s %d %i %u %x %X %p %%\n",
+c, str, 42, -42, 42, 42, 42, str);
     printf("STD len: %d | FT len: %d\n\n", len_std, len_custom);
 
     printf("=== EDGE CASES ===\n");
