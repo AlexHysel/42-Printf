@@ -6,7 +6,7 @@
 /*   By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 12:41:44 by afomin            #+#    #+#             */
-/*   Updated: 2025/11/09 12:07:23 by afomin           ###   ########.fr       */
+/*   Updated: 2025/11/11 18:11:50 by afomin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	ft_printf(const char *str, ...)
 	int		len;
 
 	if (!*str)
-		return (0);
+		return (-1);
 	va_start(args, str);
 	len = 0;
 	while (*str)
