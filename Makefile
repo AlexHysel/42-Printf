@@ -3,7 +3,7 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-/*   By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+        */
+#    By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/31 12:28:21 by afomin            #+#    #+#              #
 #    Updated: 2025/10/31 12:28:24 by afomin           ###   ########.fr        #
