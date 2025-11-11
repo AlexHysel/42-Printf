@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   _putnum.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: afomin <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 12:58:22 by afomin            #+#    #+#             */
 /*   Updated: 2025/11/01 13:07:04 by afomin           ###   ########.fr       */
