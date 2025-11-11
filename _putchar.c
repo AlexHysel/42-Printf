@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   _putchar.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: afomin <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 12:42:11 by afomin            #+#    #+#             */
 /*   Updated: 2025/11/01 12:43:13 by afomin           ###   ########.fr       */
