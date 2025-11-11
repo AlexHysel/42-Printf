@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   _putunsigned.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: afomin <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 13:52:37 by afomin            #+#    #+#             */
 /*   Updated: 2025/11/01 13:14:33 by afomin           ###   ########.fr       */
