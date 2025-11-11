@@ -6,7 +6,7 @@
 /*   By: afomin <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 14:48:58 by afomin            #+#    #+#             */
-/*   Updated: 2025/11/01 12:51:06 by afomin           ###   ########.fr       */
+/*   Updated: 2025/11/10 16:56:35 by afomin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ int	_putpointer(uintptr_t ptr)
 	int						len;
 	unsigned long			div;
 
+	if (!ptr)
+		return (_putstr("(nil)"));
 	len = 0;
 	div = 1;
 	while (ptr / div >= 16)
