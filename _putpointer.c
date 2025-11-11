@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   _putpointer.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: afomin <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: afomin <alexhysel@gmail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 14:48:58 by afomin            #+#    #+#             */
 /*   Updated: 2025/11/10 16:56:35 by afomin           ###   ########.fr       */
